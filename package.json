@@ -1,0 +1,28 @@
+{
+  "name": "array-include",
+  "version": "1.0.0",
+  "description": "String or Array index of an other array",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/array-include.git"
+  },
+  "keywords": [
+    "array",
+    "string",
+    "index",
+    "include"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/array-include/issues"
+  },
+  "homepage": "https://github.com/bredele/array-include#readme"
+}
