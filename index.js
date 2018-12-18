@@ -1,4 +1,12 @@
 
+/**
+ * Return true if string or array index of array.
+ *
+ * @param {Array} arr
+ * @param {String|Array} arg
+ * @return {Boolean}
+ * @api public
+ */
 
 module.exports = (arr, arg) => {
   return typeof arg === 'string'
