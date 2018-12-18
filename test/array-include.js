@@ -9,3 +9,8 @@ test('should return true if string index of array', assert => {
   assert.plan(1)
   assert.equal(index(['hello', 'world'], 'hello'), true)
 })
+
+test('should return true if array items index of array', assert => {
+  assert.plan(1)
+  assert.equal(index(['hello', 'world'], ['hello']), true)
+})
