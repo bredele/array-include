@@ -5,6 +5,11 @@
 const test = require('tape')
 const index = require('..')
 
+test('should return false if argument not specified', assert => {
+  assert.plan(1)
+  assert.equal(index(['hello', 'world']), false)
+})
+
 test('should return true if string index of array', assert => {
   assert.plan(1)
   assert.equal(index(['hello', 'world'], 'hello'), true)
