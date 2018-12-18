@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/bredele/array-include/issues"
   },
-  "homepage": "https://github.com/bredele/array-include#readme"
+  "homepage": "https://github.com/bredele/array-include#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
 }
