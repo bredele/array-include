@@ -10,9 +10,9 @@
 
 module.exports = (arr, arg) => {
   if (!arg) return false
-  return typeof arg === 'string'
-    ? arr.indexOf(arg) > -1
-    : contains(arg, arr)
+  return arg instanceof Array
+    ? contains(arg, arr)
+    : arr.indexOf(arg) > -1
 }
 
 

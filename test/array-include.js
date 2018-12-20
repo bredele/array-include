@@ -25,3 +25,9 @@ test('should return false if array item not index of array', assert => {
   assert.plan(1)
   assert.equal(index(['hello', 'world'], ['hello', 'world', 'foo']), false)
 })
+
+
+test('should return false if string is not strictly equal to one of the array item', assert => {
+  assert.plan(1)
+  assert.equal(index(['oliviera'], 'olivier'), false)
+})
