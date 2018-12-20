@@ -1,6 +1,6 @@
 {
   "name": "array-include",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "String or Array index of an other array",
   "main": "index.js",
   "directories": {
